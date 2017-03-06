@@ -14,3 +14,7 @@
 6.七牛图片存储SDK 上传UploadManager uploadManager = new UploadManager(config)。需要关注一下config对象
 
 7.ClipDrawable运用
+
+8.svn创建新分支需要在settings.gradle文件中添加 include ':分支名称' ，将新分支设定为一个工程
+
+9.
