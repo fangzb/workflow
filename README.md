@@ -17,4 +17,6 @@
 
 8.svn创建新分支需要在settings.gradle文件中添加 include ':分支名称' ，将新分支设定为一个工程
 
-9.
+9.HashMap做缓存处理
+
+10.ViewHolder技术只是将需要缓存的元素封装好，view的setTag方法才是将这些缓存起来供下次调用。VH就是个静态类，与缓存无关。
