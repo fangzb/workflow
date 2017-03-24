@@ -30,4 +30,4 @@
 
 15.Android Studio SVN合并代码，通过右击项目Subversion --> Integrate Directory 代码合并的方向是：从Source2(分支) ---->Source1(主干) 的，点击ok就能合并，如果有冲突，相应的去解决就行。
 
-16.svn合并点时候如果branch分支把master分支覆盖了，需要通过svn merge -r 当前版本:需要恢复的版本 全路径 之后通过svn commit -m "提交日志信息".
+16.svn合并点时候如果branch分支把master分支覆盖了，需要通过svn merge -r 当前版本:需要恢复的版本 全路径 之后通过svn commit -m "提交日志信息". svn diff -r 当前版本:需要恢复的版本 全路径 看到差异。svn log 查看日志 svn status 查看当前的svn状态
