@@ -33,3 +33,5 @@
 16.svn合并点时候如果branch分支把master分支覆盖了，需要通过svn merge -r 当前版本:需要恢复的版本 全路径 之后通过svn commit -m "提交日志信息". svn diff -r 当前版本:需要恢复的版本 全路径 看到差异。svn log 查看日志 svn status 查看当前的svn状态
 
 17.公司目前的Git分支策略:开发组员从master拉取分支并且以自己的名字命名，需求都在各自的分支开发。如果想合并到master上，需要发起一个Merge Request指定给一个人去做codereview。如果有冲突，需要组员自己去解决冲突，之后再去发起Merge Request。对方可以选择merge到master或者关闭这次请求。
+
+18.非空判断，可以写成if(xx == null) return; 这样可以减少执行流程.
